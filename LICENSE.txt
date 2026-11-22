@@ -1,0 +1,25 @@
+KeySampler-mini - freeware licence
+Copyright (c) 2026 fatbit. All rights reserved.
+
+KeySampler-mini (the "Software") is provided free of charge.
+
+1. You may install and use the Software on any number of ISLA S2400 units, for
+   any purpose, including commercial music production.
+2. You may copy and share the Software, free of charge, provided it is complete
+   and unmodified and includes this licence. You may not sell it or include it
+   in a product that is sold.
+3. You may not modify, reverse engineer, decompile or disassemble the Software,
+   except to the extent that applicable law expressly permits this.
+4. Audio and music you create with the Software belong to you.
+5. fatbit owns the Software and all rights in it; all rights not granted here
+   are reserved.
+6. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY LAW, FATBIT SHALL NOT BE LIABLE
+   FOR ANY DAMAGES ARISING FROM THE USE OF THE SOFTWARE. Mandatory consumer
+   rights are not affected.
+7. This licence is governed by the laws of Italy.
+
+The Software contains third-party components under their own licences; see
+THIRD_PARTY_NOTICES.txt. ISLA Instruments and S2400 are trademarks of their
+respective owners; the Software is not made, endorsed or supported by ISLA
+Instruments.
