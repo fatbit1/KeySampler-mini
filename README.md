@@ -11,7 +11,7 @@ the bus replaces the old one. No resampling, no file management.
 
 - **Automatic capture** from the DSP bus into memory (up to 30 s): starts when sound arrives,
   ends when it has finished, then replaces the sound you play
-- **Monitor** switch: capture a new sound without hearing it
+- **Bus Capture** On / On Mute / Off: capture and hear the bus, capture silently, or keep the current sound and ignore the bus
 - **8 voices**, velocity (with sensitivity), pitch bend, sustain pedal
 - **One Shot, Gate and Loop** play modes with Start and loop points in the S2400's own
   sec / ms format, automatically moved to zero crossings so starts and loops don't click
@@ -37,12 +37,18 @@ the bus replaces the old one. No resampling, no file management.
 1. **Bank+0** opens the DSP Mixer. On bus 1 press **Shift+Pad**, choose **+Add Plugin/Preset**
    and pick **KeySampler-mini** (vendor *KeySampler*).
 2. Hold **Shift** and press the pad you want to play to open Track Settings; set **Output** to 1.
-3. Hit the pad once. KeySampler-mini captures it (you hear it because Monitor is on).
+3. Hit the pad once. KeySampler-mini captures it (you hear it because Bus Capture is On).
 4. Play your MIDI keyboard on the bus's MIDI channel (channel 1 for bus 1). Middle C (Root Note 60)
    plays the sound at its original pitch.
 
-Turn **Monitor** off to capture new sounds silently. The captured sound lives in memory only:
+Set **Bus Capture** to On Mute to capture new sounds silently, or Off to keep the current sound. The captured sound lives in memory only:
 after power-off, hit the pad again to capture it.
+
+## Manual
+
+KeySampler-mini shares the KeySampler manual: **[KeySampler manual (PDF)](docs/KeySampler_Manual.pdf)**.
+Chapter 12 lists the mini's menu and what it leaves out; sections and parameters marked
+*not in mini* apply to the full KeySampler only.
 
 ## Want more? KeySampler and KeyGrain
 
@@ -63,7 +69,7 @@ Everything in the mini, plus:
 - **Key range**: set the lowest and highest key by pressing them
 - **Full MIDI control** following General MIDI 2, remappable in a text file; knob moves can be
   saved into the S2400 menu
-- 20-page PDF manual
+- PDF manual — [read it here](docs/KeySampler_Manual.pdf)
 
 **[→ Buy KeySampler](https://buy.polar.sh/polar_cl_rD8J6OsCse0SCoi9mde7zXRO7wmlaW5Cn0vhR3Vludf)**
 
@@ -79,7 +85,7 @@ Capture any pad and play it as pads, textures and drones:
 - Self-moving **Scan** and **reverse grains** for evolving textures
 - 16 voices, velocity, pitch bend, key range
 - **8 ready-made DSP setups** with faders and knobs already assigned
-- PDF manual
+- PDF manual — [read it here](docs/KeyGrain_Manual.pdf)
 
 **[→ Buy KeyGrain](https://buy.polar.sh/polar_cl_yvwXAcWo8HUyTZewYYK5GQ7O7UNUYW2GPMV9C16kL1X)**
 
@@ -94,7 +100,7 @@ Capture any pad and play it as pads, textures and drones:
 | Built-in oscillators | — | ✓ | — |
 | Key range | — | ✓ | ✓ |
 | MIDI CC control | — | ✓ (GM2, remappable) | via S2400 controls |
-| Manual | — | ✓ | ✓ |
+| Manual | [shared with KeySampler](docs/KeySampler_Manual.pdf) | [✓](docs/KeySampler_Manual.pdf) | [✓](docs/KeyGrain_Manual.pdf) |
 | Price | **free** | [buy](https://buy.polar.sh/polar_cl_rD8J6OsCse0SCoi9mde7zXRO7wmlaW5Cn0vhR3Vludf) | [buy](https://buy.polar.sh/polar_cl_yvwXAcWo8HUyTZewYYK5GQ7O7UNUYW2GPMV9C16kL1X) |
 
 Payments are handled by [Polar](https://polar.sh). You download the plugin and manual right after
